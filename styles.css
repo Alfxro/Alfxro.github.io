@@ -1,0 +1,134 @@
+.form-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 10vh;
+   
+
+}
+
+
+body{
+    background-color: rgb(43, 42, 42);
+}
+
+
+body .container{
+    width: 300px;
+    height: 500px;
+}
+
+
+body form input[type=button], input[type=reset]{
+    width: 50px;
+    height: 60px;
+    border: unset;
+    border-radius: 10px;
+    margin-top: 7px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.4em;
+    color: whitesmoke;
+    background-color: #270e33;
+    text-shadow: 1px 0px 20px;
+}
+
+.white:hover{
+    background-color: #3e1850;
+}
+.white:active{
+    background-color: #270e33;
+}
+body form input[type=reset]:hover{
+    background-color: #f16f1875;
+}
+body form input[type=reset]:active{
+    background-color: #f16f182f;
+}
+
+#ansButton:hover{
+    background-color: #153c9180;
+}
+#ansButton:active{
+    background-color: #153c9133;
+}
+
+#substract{
+    background-color: rgba(19, 19, 133, 0.363);
+    text-shadow: 1px 0px 10px;
+}
+#sum{
+    background-color: rgba(19, 19, 133, 0.363);
+    text-shadow: 1px 0px 10px;
+}
+#divide{
+    background-color: rgba(19, 19, 133, 0.363);
+    text-shadow: 1px 0px 10px;
+}
+#multiply{
+    background-color: rgba(19, 19, 133, 0.363);
+    text-shadow: 1px 0px 10px;
+}
+#substract:hover{
+    background-color: rgba(35, 35, 146, 0.719);
+    text-shadow: 1px 0px 10px;
+}
+#sum:hover{
+    background-color: rgba(35, 35, 146, 0.719);
+    text-shadow: 1px 0px 10px;
+}
+#divide:hover{
+    background-color: rgba(35, 35, 146, 0.719);
+    text-shadow: 1px 0px 10px;
+}
+#multiply:hover{
+    background-color: rgba(35, 35, 146, 0.719);
+    text-shadow: 1px 0px 10px;
+}
+
+#substract:active{
+    background-color: rgba(19, 19, 133, 0.363);
+    text-shadow: 1px 0px 10px;
+}
+#sum:active{
+    background-color: rgba(19, 19, 133, 0.363);
+    text-shadow: 1px 0px 10px;
+}
+#divide:active{
+    background-color: rgba(19, 19, 133, 0.363);
+    text-shadow: 1px 0px 10px;
+}
+#multiply:active{
+    background-color: rgba(19, 19, 133, 0.363);
+    text-shadow: 1px 0px 10px;
+}
+
+
+
+
+body form input[type=textfield]{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    padding: 30px 20px;
+    width: 200px;
+    text-align: right;
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(57, 39, 73);
+    font-family: 'Mulish', sans-serif;;
+    font-size: 3em;
+    text-shadow: 1px 0px 2px;
+
+}
+
+
+body form{
+    display: block;
+    background-color: whitesmoke;
+    width: 85%;
+    height: 80%;
+    text-align: center;
+    background-color: rgb(57, 39, 73);
+    border-radius: 20px;
+    box-shadow: 1px 1px 40px black;
+}
